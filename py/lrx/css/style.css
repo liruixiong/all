@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f6f6f6;
+}
+ul{
+    list-style: none;
+}
+li{
+    width: 210px;
+    height: 375px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    float: left;
+    overflow: hidden;
+}
+li img{
+    width: inherit;
+}
+li b{
+    font-size: 18px;
+    color: #E4393C;
+}
+li a{
+    width:50px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+}
+li a:hover{
+    color: #E4393C;
+}
+li input{
+    color: #ffffff;
+    float: right;
+    border: 2px solid #ac2925;
+    background-color: #c9302c;
+    margin-top: 30px;
+    padding: 10px;
+}
+li input:hover{
+    border: 2px solid #761c19;
+    background-color: #ac2925;
+}
+
+.DOX{
+    width: 964px;
+    height: 42px;
+    border: 1px solid black;
+
+}
+
+.box1{
+    width: 78px;
+    height: 32px;
+    background-color: #ff6600;
+    margin-left: 200px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.box1 a{
+    display: block;
+    font-family: '微软雅黑';
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.box2,.box3,.box4,.box5,.box7,.box8,.box9,.box10{
+    width: 35px;
+    height: 32px;
+    background-color: #ff6600;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.box2 a,.box3 a,.box4 a,.box5 a,.box7 a,.box8 a,.box9 a,.box10 a{
+    display: block;
+    font-family: '微软雅黑';
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+.box6{
+    display: inline-block;
+}
+.box11{
+    width: 78px;
+    height: 32px;
+    background-color: #ff6600;
+    margin-top: 5px;
+    display: inline-block;
+}
+.box11 a{
+    display: block;
+    font-family: '微软雅黑';
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 0;
+    text-decoration: none;
+    color: black;
+}
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box7:hover,.box8:hover,.box9:hover,.box10:hover,.box11:hover{
+    background-color: red;
+}

@@ -1,0 +1,29 @@
+W3School手册
+http://www.w3school.com.cn
+
+Unicode 10.0 Character Code Charts
+http://www.unicode.org/charts/
+
+Unicode编码在线转换
+http://tool.oschina.net/encode
+
+1500+公用图标字体文件
+http://www.keyin.cn/font/
+
+Ceaser（贝塞尔曲线）
+http://xuanfengge.com/easeing/ceaser/
+
+BootCDN（前端开源项目网站）
+http://www.bootcdn.cn/
+
+360搜索
+https://www.so.com/
+
+jqueryui
+https://jqueryui.com/
+
+CSS3 object-fit理解
+https://www.ylefu.com/post/350.html
+
+data:image/png;base64的使用
+https://blog.csdn.net/bbc2005/article/details/73369893

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>上传图片的小Demo</h1>
+
+<form action="/upload/" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    标题:<input type="text" name="title" >
+    <br><br>
+    <input type="file" name="img">
+    <br><br>
+    <input type="submit" value="提交">
+
+</form>
+
+</body>
+</html>

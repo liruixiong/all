@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    width: 1299px;
+    height: 113px;
+}
+
+.warp{
+    width: 990px;
+    height: 73px;
+    margin:0 auto;
+    padding: 20px 0;
+}
+
+.var{
+    width: 990px;
+    height: 432px;
+    margin: 0 auto;
+}
+.box1 img{
+    margin: 30px 10px;
+    float: left;
+}
+
+.box2 img{
+    margin: 0 0 0 80px;
+}
+
+.box3{
+    width: 384px;
+    height: 319px;
+    background-color: #FFFFFF;
+    margin-left: 480px;
+    border: 1px solid #8c8c8c;
+}
+
+.box3 table{
+    font-size: 14px;
+    color: #666666;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.cart05 {
+
+    background: url(img/scn04.png) no-repeat 0 -198px;
+    width: 89px;
+    height: 38px;
+    text-indent: 0;
+    color: #fff;
+}
+.c444{
+    font-size: 12px;
+}
+.c555{
+    color: #ff6600;
+}
+.c666{
+    text-decoration: none;
+    font-size: 12px;
+}
+.c777{
+    color: #777777;
+    text-decoration: none;
+    font-size: 12px;
+}
+.c001 {
+    padding: 12px 0 0;
+    float: left;
+    margin-left: 80px;
+    color: #777777;
+    font-size: 12px;
+}
+.c999{
+    height: 5px;
+    background-color: #FFFFFF;
+}
+.c606{
+    float: right;
+    padding-top: 30px;
+    margin-right: 150px;
+}
+
+.foot1{
+    border-top: 2px solid #CE3C3B;
+    width: 980px;
+    float: left;
+    margin-left: 164px;
+    text-align: center;
+}
+.foot2{
+    color: #4c4c4c;
+    font-size: 11px;
+    text-decoration-line: none;
+}
+.foot2 a{
+    color: #666666;
+    text-decoration: none;
+}
+.foot2 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.error_tip{
+    color: red;
+    font-size: 10px;
+
+}
+
+b{
+    font-size: 20px;
+    color: #c00;
+    font-weight: 700;
+}

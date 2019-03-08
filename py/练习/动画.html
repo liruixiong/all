@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>动图</title>
+	<style type="text/css">
+	*{
+		margin:0;
+		padding:0;
+	}	
+	.box{
+		width: 500px;
+		height: 200px;
+		border: 1px solid black;
+		margin: 100px auto;
+	}
+	.box1{
+		width: 40px;
+		height: 80px;
+		background:red;
+		float: left;
+		margin:50px 0 0 50px;
+		border-radius: 10px;
+		animation: moving 500ms ease 0ms infinite alternate both;
+	}
+	.box2{
+		width: 40px;
+		height: 80px;
+		background: purple;
+		float: left;
+		margin:50px 0 0 50px;
+		border-radius: 10px;
+		animation: moving 500ms ease 100ms infinite alternate both;
+	}
+	.box3{
+		width: 40px;
+		height: 80px;
+		background: green;
+		float: left;
+		margin:50px 0 0 50px;
+		border-radius: 10px;
+		animation: moving 500ms ease 200ms infinite alternate both;
+	}
+	.box4{
+		width: 40px;
+		height: 80px;
+		background: yellow;
+		float: left;
+		margin:50px 0 0 50px;
+		border-radius: 10px;
+		animation: moving 500ms ease 300ms infinite alternate both;
+	}
+	.box5{
+		width: 40px;
+		height: 80px;
+		background: pink;
+		float: left;
+		margin:50px 0 0 50px;
+		border-radius: 10px;
+		animation: moving 500ms ease 400ms infinite alternate both;
+	}
+	@keyframes moving{
+		from{
+			transform: scaleY(1);
+		}
+		to{
+			transform: scaleY(0.5);
+		}
+	}
+	.box6{
+		width: 100px;
+		height: 21px;
+		background-color: #FFFFFF;
+		float: left;
+		margin:10px 0 0 200px;
+	}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="box1"></div>
+		<div class="box2"></div>
+		<div class="box3"></div>
+		<div class="box4"></div>
+		<div class="box5"></div>
+		<div class="box6"><p>loading...</p></div>
+	</div>
+</body>
+</html>

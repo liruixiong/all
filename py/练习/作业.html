@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画</title>
+    <style type="text/css">
+	*{
+		margin:0;
+		padding:0;
+	}
+	.box{
+		width: 500px;
+		height: 250px;
+		border: 1px solid black;
+		margin: 100px auto;
+    }
+    .p1{
+		width: 40px;
+		height: 80px;
+		background:#cc0000;
+		float: left;
+		margin:50px 0 0 50px;
+		border-radius: 10px;
+		animation: moving 500ms ease 100ms infinite alternate both;
+
+    }
+    .p2{
+		width: 40px;
+		height: 80px;
+		background:#cf2c19;
+		float: left;
+		margin:50px 0 0 50px;
+		border-radius: 10px;
+		animation: moving 450ms ease 200ms infinite alternate both;
+
+    }
+    .p3{
+		width: 40px;
+		height: 80px;
+		background:#B9363D;
+		float: left;
+		margin:50px 0 0 50px;
+		border-radius: 10px;
+		animation: moving 500ms ease 300ms infinite alternate both;
+
+    }
+    .p4{
+		width: 40px;
+		height: 80px;
+		background:#B9363D;
+		float: left;
+		margin:50px 0 0 50px;
+		border-radius: 10px;
+		animation: moving 500ms ease 400ms infinite alternate both;
+
+    }
+    .p5{
+		width: 40px;
+		height: 80px;
+		background:#cf5925;
+		float: left;
+		margin:50px 0 0 50px;
+		border-radius: 10px;
+		animation: moving 500ms ease 500ms infinite alternate both;
+
+    }
+
+	@keyframes moving{
+		from{
+			transform: scaleY(1);
+		}
+		to{
+			transform: scaleY(0.5);
+		}
+	}
+	.p6{
+		width: 100px;
+		height: 21px;
+		background-color: #FFFFFF;
+		float: left;
+		margin:30px 0 0 200px;
+	}
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <div class="p1"></div>
+    <div class="p2"></div>
+    <div class="p3"></div>
+    <div class="p4"></div>
+    <div class="p5"></div>
+    <div class="p6"><p>
+        loading...
+    </p></div>
+</div>
+
+</body>
+</html>

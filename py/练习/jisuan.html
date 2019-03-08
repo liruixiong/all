@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            var input01 = document.getElementById('input01');
+            var select = document.getElementById('select');
+            var input02 = document.getElementById('input02');
+            var btn = document.getElementById('btn');
+            btn.onclick = function(){
+                input01.value;
+                input02.value;
+                switch(select.value){
+                    case '0':
+                        alert((parseFloat(input01.value) *100 + parseFloat(input02.value) *100)/100);
+                        if(input01.value && input02.value) isNaN;{
+                             alert("输入不合法")
+                    }
+                        break;
+                    case '1':
+                        alert((parseFloat(input01.value) *100 - parseFloat(input02.value) *100)/100);
+                        break;
+                    case '2':
+                        alert(((parseFloat(input01.value) *100) * (parseFloat(input02.value) *100))/10000);
+                        break;
+                    case '3':
+                        alert(((parseFloat(input01.value) *100) / (parseFloat(input02.value) *100)));
+                        break;
+                }
+            }
+            /*alert(input01);
+            alert(input02);*/
+        }
+    </script>
+</head>
+<body>
+<h1>计算器</h1>
+<input type="text" name="" id="input01"/>
+<select id="select">
+    <option value="0">+</option>
+    <option value="1">-</option>
+    <option value="2">*</option>
+    <option value="3">/</option>
+    <input type="text" name="" id="input02"/>
+    <input type="button" name="" value="计算" id="btn"/>
+</select>
+</body>
+</html>
